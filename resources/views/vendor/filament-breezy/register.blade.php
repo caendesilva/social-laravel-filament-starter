@@ -18,7 +18,7 @@
     {{ $this->form }}
 
     @if(config("filament-socialite.registration"))
-        <x-filament-socialite::buttons />
+        <x-filament-socialite::buttons type="register" />
     @endif
 
     <x-filament::button type="submit" class="w-full" form="register">
