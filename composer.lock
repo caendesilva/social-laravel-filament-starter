@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ef3bda4657b0a52886fdaf9e8ea3ec4",
+    "content-hash": "c9bb4ba9ab0222e09d794ea69935b650",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -787,6 +787,86 @@
                 }
             ],
             "time": "2022-09-10T18:51:20+00:00"
+        },
+        {
+            "name": "dutchcodingcompany/filament-socialite",
+            "version": "0.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DutchCodingCompany/filament-socialite.git",
+                "reference": "b389b27276837734a8b645c124d426806037cb3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DutchCodingCompany/filament-socialite/zipball/b389b27276837734a8b645c124d426806037cb3c",
+                "reference": "b389b27276837734a8b645c124d426806037cb3c",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^2.0",
+                "illuminate/contracts": "^8.0|^9.0|^10.0",
+                "laravel/socialite": "^5.5",
+                "livewire/livewire": "^2.10",
+                "php": "^8.0",
+                "spatie/laravel-package-tools": "^1.9.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.8",
+                "nunomaduro/collision": "^6.0",
+                "nunomaduro/larastan": "^2.0.1",
+                "orchestra/testbench": "^7.0",
+                "pestphp/pest": "^1.21",
+                "pestphp/pest-plugin-laravel": "^1.1",
+                "pestphp/pest-plugin-livewire": "^1.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpunit/phpunit": "^9.5",
+                "spatie/laravel-ray": "^1.26"
+            },
+            "suggest": {
+                "owenvoke/blade-fontawesome": "^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "DutchCodingCompany\\FilamentSocialite\\FilamentSocialiteServiceProvider"
+                    ],
+                    "aliases": {
+                        "FilamentSocialite": "DutchCodingCompany\\FilamentSocialite\\Facades\\FilamentSocialite"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DutchCodingCompany\\FilamentSocialite\\": "src",
+                    "DutchCodingCompany\\FilamentSocialite\\Database\\Factories\\": "database/factories"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Boers",
+                    "email": "m@rcoboe.rs",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Social login for Filament through Laravel Socialite",
+            "homepage": "https://github.com/dutchcodingcompany/filament-socialite",
+            "keywords": [
+                "dutchcodingcompany",
+                "filament-socialite",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/DutchCodingCompany/filament-socialite/issues",
+                "source": "https://github.com/DutchCodingCompany/filament-socialite/tree/0.2.5"
+            },
+            "time": "2023-03-14T19:01:45+00:00"
         },
         {
             "name": "egulias/email-validator",
