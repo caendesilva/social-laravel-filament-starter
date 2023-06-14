@@ -13,7 +13,7 @@
     <div @class(['grid gap-4', 'grid-cols-2' => count($providers) > 1])>
         @foreach($providers as $key => $provider)
             <x-filament::button
-                color="secondary"
+                :color="$provider['color'] ?? 'secondary'"
                 :icon="$provider['icon'] ?? null"
                 tag="a"
                 :href="route('socialite.oauth.redirect', $key)"

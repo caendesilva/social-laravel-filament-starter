@@ -16,14 +16,17 @@ return [
     // These should match the Socialite providers you have set up in your services.php config.
     // Uses Blade UI icons, for example: https://github.com/owenvoke/blade-fontawesome,
     // or simply provide any Blade view key for the Filament button component to use.
+    // You can also specify any of the colors from the Filament color palette.
     'providers' => [
         //        'gitlab' => [
         //            'label' => 'GitLab',
         //            'icon' => 'fab-gitlab',
+        //            'color' => 'secondary'
         //        ],
         //        'github' => [
         //            'label' => 'GitHub',
         //            'icon' => 'fab-github',
+        //            'color' => 'secondary'
         //        ],
     ],
 
