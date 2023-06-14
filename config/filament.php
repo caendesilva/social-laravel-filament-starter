@@ -68,11 +68,13 @@ return [
     | Brand Name
     |--------------------------------------------------------------------------
     |
-    | This will be displayed on the login page and in the sidebar's header.
+    | This will be displayed on the login page and in the sidebar's header,
+    | as well as the page footer. You can also specify the footer brand URL.
     |
     */
 
     'brand' => env('APP_NAME'),
+    'brand_url' => '/',
 
     /*
     |--------------------------------------------------------------------------

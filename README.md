@@ -8,6 +8,7 @@
 - Filament is served from `/app` instead of `/admin` and is open to all registered users.
 - Both Filament Breezy and Filament Socialite come preinstalled and preconfigured.
 - Some views configured to allow better customization and interoperability with included packages.
+- Replaces Filament branding with configurable information about your site.
 
 ### Additional features
 
