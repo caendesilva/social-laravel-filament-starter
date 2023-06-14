@@ -10,7 +10,7 @@
         </p>
     </div>
 
-    <div class="grid grid-cols-2 gap-4">
+    <div @class(['grid gap-4', 'grid-cols-2' => count($providers) > 1])>
         @foreach($providers as $key => $provider)
             <x-filament::button
                 color="secondary"
