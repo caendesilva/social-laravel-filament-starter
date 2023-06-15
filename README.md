@@ -15,6 +15,8 @@
 - The default database is set to SQLite for faster local development. 
 - The User migration is changed to make the password column nullable (as required for Socialite)
 - All changes are made in atomic Git commits, that allow you to roll back any changes you do not desire.
+- A small set of common social provider icons are included to be used in the social login buttons, ported from [Font Awesome](https://fontawesome.com/) via [Blade Font Awesome](https://github.com/owenvoke/blade-fontawesome) (MIT License).
+
 
 ### License
 

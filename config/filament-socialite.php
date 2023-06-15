@@ -25,7 +25,7 @@ return [
         //        ],
         //        'github' => [
         //            'label' => 'GitHub',
-        //            'icon' => 'fab-github',
+        //            'icon' => 'social-icon-github',
         //            'color' => 'secondary'
         //        ],
     ],
