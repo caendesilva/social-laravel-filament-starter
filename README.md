@@ -1,4 +1,4 @@
-# Social Laravel FilamentPHP Starter Kit
+# Social Laravel 10 FilamentPHP Starter Kit
 
 **An opinionated starter project for [Laravel](https://laravel.com/) applications using [FilamentPHP](https://filamentphp.com/) as the main user frontend.**
 
